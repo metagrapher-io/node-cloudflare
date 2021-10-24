@@ -15,6 +15,7 @@ const proxy = require('./lib/proxy');
 
 /* eslint-disable global-require */
 const resources = {
+  argoTunnels: require('./lib/resources/ArgoTunnels'),
   dnsRecords: require('./lib/resources/DNSRecords'),
   enterpriseZoneWorkersScripts: require('./lib/resources/EnterpriseZoneWorkersScripts'),
   enterpriseZoneWorkersRoutes: require('./lib/resources/EnterpriseZoneWorkersRoutes'),
@@ -29,6 +30,7 @@ const resources = {
   zoneWorkersScript: require('./lib/resources/ZoneWorkersScript'),
   zoneWorkersRoutes: require('./lib/resources/ZoneWorkersRoutes'),
   user: require('./lib/resources/User'),
+  userTokens: require('./lib/resources/UserTokens'),
   stream: require('./lib/resources/Stream'),
 };
 /* eslint-enable global-require */
